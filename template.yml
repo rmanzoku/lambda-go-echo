@@ -7,3 +7,6 @@ Resources:
       Handler: main
       Runtime: go1.x
       CodeUri: .
+      Environment:
+        Variables:
+          HOGEHOGE: hugahuga
