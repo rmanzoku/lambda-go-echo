@@ -1,12 +1,12 @@
 AWSTemplateFormatVersion: 2010-09-09
 Transform: AWS::Serverless-2016-10-31
 Resources:
-  HelloWorld:
+  MainFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: main
-      Runtime: go1.x
       CodeUri: .
+      Handler: lambda-go-echo
+      Runtime: go1.x
       Environment:
         Variables:
           HOGEHOGE: hugahuga
