@@ -3,7 +3,7 @@ NAME=lambda-go-echo
 
 export AWS_PROFILE=default
 export AWS_DEFAULT_REGION=ap-northeast-1
-S3_BUCKET=build.prod.mch.djty.co
+S3_BUCKET=buckethoge
 
 .PHONY: setup run_local deploy
 
