@@ -24,4 +24,4 @@ deploy: packaged.yml
 	aws-sam-local deploy --template-file packaged.yml --stack-name $(NAME) --capabilities CAPABILITY_IAM
 
 setup:
-	go get -u github.com/awslabs/aws-sam-local
+	pip install -r requirements.txt
