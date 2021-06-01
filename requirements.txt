@@ -35,7 +35,7 @@ serverlessrepo==0.1.5
 setuptools==40.8.0
 six==1.11.0
 tzlocal==1.5.1
-urllib3==1.24.1
+urllib3==1.26.5
 websocket-client==0.55.0
 Werkzeug==0.14.1
 wheel==0.33.1
