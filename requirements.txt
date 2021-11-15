@@ -23,7 +23,7 @@ jinja2-time==0.2.0
 jmespath==0.9.4
 jsonschema==2.6.0
 MarkupSafe==1.1.1
-pip==19.0.3
+pip==21.1
 poyo==0.4.2
 python-dateutil==2.8.0
 pytz==2018.9
