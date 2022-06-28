@@ -1,4 +1,4 @@
-arrow==0.13.1
+arrow==0.15.1
 aws-lambda-builders==0.1.0
 aws-sam-cli==0.12.0
 aws-sam-translator==1.9.1
